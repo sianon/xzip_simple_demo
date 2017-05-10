@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="480,280" mininfo="480,280" caption="0,0,0,30">
+  <Font name="Arial" size="12" bold="false" italic="false" default="true" />
+  <Include source="default.xml" />
+  <StringTable xmlfile="string_table.xml" />
+  <VerticalLayout bkcolor="#ffcd364b" inset="1,0,1,1">
+    <HorizontalLayout height="30" inset="4,0,25,0">
+      <Label name="caption" text="服务器信息设置" textcolor="#ffffffff" align="center" />
+      <Control />
+      <Button name="sysclose" width="30" tooltip="#close" bkimage="file='res\min_close.png' source='16,0,32,16'" bkcolor="" hotbkcolor="" />
+      <!--<Button name="sysclose" tooltip="#close" float="true" pos="-23,7,-7,23" bkimage="file='res\min_close.png' source='16,0,32,16'" bkcolor="" hotbkcolor="" />-->
+    </HorizontalLayout>
+    <VerticalLayout bkcolor="#ff494b51" inset="22,18,22,18">
+      <VerticalLayout bkcolor="#ff22252c" inset="10,15,10,15">
+        <VerticalLayout>
+          <Label text="服务器信息：" />
+          <HorizontalLayout height="30" inset="20,3,0,3">
+            <Label width="16" text="IP:" />
+            <IpControl name="server_ip" />
+            <Control width="10" />
+            <Label width="27" text="Port:" />
+            <Edit name="server_port" width="50" />
+          </HorizontalLayout>
+          <Control height="20" />
+          <Label text="数据库信息：" />
+          <HorizontalLayout height="30" inset="20,3,0,3">
+            <Label width="16" text="IP:" />
+            <IpControl name="db_ip" />
+            <Control width="10" />
+            <Label width="27" text="Port:" />
+            <Edit name="db_port" width="50" />
+          </HorizontalLayout>
+          <HorizontalLayout height="30" inset="20,3,0,3">
+            <Label width="50" text="dbname:" />
+            <Edit name="dbname" width="80" />
+            <Control width="10" />
+            <Label width="30" text="user:" />
+            <Edit name="user" width="80" />
+            <Control width="10" />
+            <Label width="30" text="pwd:" />
+            <Edit name="pwd" width="80" />
+          </HorizontalLayout>
+        </VerticalLayout>
+        <Control height="15" />
+        <HorizontalLayout height="22">
+          <Button name="ok" text="确定" />
+          <Control width="5" />
+          <Button name="cancel" text="取消" />
+        </HorizontalLayout>
+      </VerticalLayout>
+    </VerticalLayout>
+  </VerticalLayout>
+</Window>

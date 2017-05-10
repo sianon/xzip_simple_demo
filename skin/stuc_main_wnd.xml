@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true" shadowimage="" size="325,325" maxinfo="325,325" caption="0,0,0,325">
+  <Font id="0" name="微软雅黑" size="18" bold="false" italic="false" default="true" />
+  <Font id="1" name="微软雅黑" size="16" bold="false" italic="false" />
+  <Container>
+    <TabLayout name="anima_tab" selectedid="0">
+      <VerticalLayout inset="0,25,25,0">
+        <Container bkcolor="#FFffffff">
+          <GifAnim bkimage="res/test.gif" />
+        </Container>
+        <VerticalLayout height="135" bkcolor="#FFffffff">
+          <HorizontalLayout height="40" inset="60,5,60,5">
+            <Edit name="Sno" text="学号" align="center" font="1" numberonly="true" borderround="5,5" bordersize="1" bordercolor="#ff456789" />
+          </HorizontalLayout>
+          <HorizontalLayout height="40" inset="60,5,60,5">
+            <Edit name="name" text="姓名" align="center" font="1" borderround="5,5" bordersize="1" bordercolor="#ff456789" />
+          </HorizontalLayout>
+          <HorizontalLayout height="45" inset="60,5,60,5">
+            <Button name="login_btn" text="登录" bkcolor="#ff088808" hotbkcolor="#ff852136" borderround="5,5" />
+          </HorizontalLayout>
+        </VerticalLayout>
+        <Label name="mask_label" float="true" pos="0,0,300,190" bkcolor="#01000000" />
+        <Button name="close_btn" float="true" pos="275,0,325,50" bkimage="res/close_1.png" pushedimage="res/close.png" />
+      </VerticalLayout>
+      <VerticalLayout width="100" height="227" bkcolor="#88555555" inset="5,5,5,5" childpadding="2">
+        <Button name="speak_item" text="发言" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+        <Button name="handup_item" text="举手" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+        <Button name="stop_item" text="结束" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+        <Button name="setup_item" text="设置" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+        <Control height="1" />
+        <Control height="1" bkcolor="#ff999999" />
+        <Control height="1" />
+        <Button name="closebtn" text="退出" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+      </VerticalLayout>
+      <Container width="6" height="227">
+        <GifAnim name="" bkimage="res/test.gif" />
+      </Container>
+    </TabLayout>
+  </Container>
+</Window>

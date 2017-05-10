@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="176,30">
+  <IpControlLayout height="27" bordercolor="#ffaaaaaa" bordersize="1" inset="2,2,2,2">
+    <Edit name="ip_edit_0" height="25" bkcolor="#" numberonly="true" maxchar="3" align="vcenter" />
+    <Text text="." width="7" height="25" />
+    <Edit name="ip_edit_1" height="25" bkcolor="#" numberonly="true" maxchar="3" align="vcenter" />
+    <Text text="." width="7" height="25" />
+    <Edit name="ip_edit_2" height="25" bkcolor="#" numberonly="true" maxchar="3" align="vcenter" />
+    <Text text="." width="7" height="25" />
+    <Edit name="ip_edit_3" height="25" bkcolor="#" numberonly="true" maxchar="3" align="vcenter" />
+  </IpControlLayout>
+</Window>

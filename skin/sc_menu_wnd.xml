@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window roundcorner="5,5" size="100,227">
+  <Font id="0" name="微软雅黑" size="18" bold="false" italic="false" default="true" />
+  <VerticalLayout bkcolor="#88555555" inset="5,5,5,5" childpadding="2">
+    <Button name="speak_item" text="发言" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+    <Button name="handup_item" text="举手" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+    <Button name="stop_item" text="结束" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+    <Button name="setup_item" text="设置" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+    <Control height="1" />
+    <Control height="1" bkcolor="#ff999999" />
+    <Control height="1" />
+    <Button name="closebtn" text="退出" height="40" align="center" textcolor="#ff000000" borderround="5,5" bkcolor="#55e0e0e0" hotbkcolor="#ff5ccc5c" hottextcolor="#ff0000aa" />
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,5 @@
+﻿  xzip_demo.cpp
+d:\work\project\mediatransfer\xzip_demo\src\xzip_demo.cpp(10): warning C4005: '_CRT_SECURE_NO_WARNINGS': macro redefinition
+  d:\work\project\mediatransfer\xzip_demo\src\xzip_demo.cpp(10): note: command-line arguments:  see previous definition of '_CRT_SECURE_NO_WARNINGS'
+  xzip_demo.vcxproj -> D:\Work\ProJect\MediaTransfer\xzip_demo\\bin\xzip_demo.exe
+  xzip_demo.vcxproj -> D:\Work\ProJect\MediaTransfer\xzip_demo\\bin\xzip_demo.pdb (Full PDB)
