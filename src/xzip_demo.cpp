@@ -14,6 +14,7 @@ using namespace fs;
 
 int main()
 {
+
 	//Ñ¹Ëõ¹ý³Ì
 	HZIP hz = CreateZip(0, 256 * 1024, ZIP_MEMORY);
 	if (!hz) return false;
